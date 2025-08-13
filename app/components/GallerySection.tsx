@@ -77,7 +77,7 @@ export default function GallerySection() {
 
           {/* Coming Soon Badge */}
           <div className="text-center mt-8 sm:mt-10 lg:mt-12">
-            <div className="inline-flex items-center px-6 py-3 bg-white/10 backdrop-blur-sm rounded-full border border-white/20">
+            <div className="inline-flex items-center px-6 py-3 bg-white/20 backdrop-blur-md rounded-full border border-white/30 shadow-xl">
               <span className="text-white font-medium text-sm sm:text-base">
                 ✨ More culinary experiences coming soon
               </span>
