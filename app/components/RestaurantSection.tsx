@@ -33,10 +33,14 @@ export default function RestaurantSection() {
         <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-800 mb-3 sm:mb-4">
           Partner with tastie.club
         </h2>
-        <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed px-2 sm:px-0">
-          Create bums on seats during quiet hours with real foodies.<br />
-          Test your dishes in bitesize form - get real customer approval.
-        </p>
+        <div className="text-sm sm:text-base lg:text-lg xl:text-xl text-gray-600 max-w-xl sm:max-w-2xl lg:max-w-3xl mx-auto px-6 sm:px-4 lg:px-0">
+          <p className="leading-relaxed mb-2 sm:mb-3">
+            Create bums on seats during quiet hours with real foodies.
+          </p>
+          <p className="leading-relaxed">
+            Test your dishes in bitesize form - get real customer approval.
+          </p>
+        </div>
       </div>
 
       {/* Waitlist Form */}

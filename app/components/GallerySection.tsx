@@ -1,5 +1,7 @@
 'use client';
 
+import Image from 'next/image';
+
 export default function GallerySection() {
   return (
     <div className="bg-[#F2F2F2] flex items-center justify-center p-4 sm:p-6 lg:p-8 pt-8 sm:pt-12 lg:pt-16">
@@ -21,37 +23,55 @@ export default function GallerySection() {
           {/* Food Gallery Grid */}
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
             {/* Row 1 */}
-            <div className="aspect-square bg-gradient-to-br from-red-900 to-red-700 rounded-lg sm:rounded-xl overflow-hidden shadow-lg">
-              <div className="w-full h-full flex items-center justify-center text-white/20 text-4xl">
-                🥩
-              </div>
+            <div className="aspect-[3/2] overflow-hidden shadow-lg relative">
+              <Image
+                src="/images/steak.jpg"
+                alt="Premium steak dish"
+                fill
+                className="object-cover"
+              />
             </div>
-            <div className="aspect-square bg-gradient-to-br from-orange-900 to-orange-700 rounded-lg sm:rounded-xl overflow-hidden shadow-lg">
-              <div className="w-full h-full flex items-center justify-center text-white/20 text-4xl">
-                🍰
-              </div>
+            <div className="aspect-[3/2] overflow-hidden shadow-lg relative">
+              <Image
+                src="/images/brownies.jpg"
+                alt="Gourmet brownies"
+                fill
+                className="object-cover"
+              />
             </div>
-            <div className="aspect-square bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg sm:rounded-xl overflow-hidden shadow-lg">
-              <div className="w-full h-full flex items-center justify-center text-white/20 text-4xl">
-                🍫
-              </div>
+            <div className="aspect-[3/2] overflow-hidden shadow-lg relative">
+              <Image
+                src="/images/truffles.jpg"
+                alt="Artisan truffles"
+                fill
+                className="object-cover"
+              />
             </div>
             
             {/* Row 2 */}
-            <div className="aspect-square bg-gradient-to-br from-amber-900 to-amber-700 rounded-lg sm:rounded-xl overflow-hidden shadow-lg">
-              <div className="w-full h-full flex items-center justify-center text-white/20 text-4xl">
-                🍸
-              </div>
+            <div className="aspect-[3/2] overflow-hidden shadow-lg relative">
+              <Image
+                src="/images/cocktails.jpg"
+                alt="Craft cocktails"
+                fill
+                className="object-cover"
+              />
             </div>
-            <div className="aspect-square bg-gradient-to-br from-red-800 to-red-900 rounded-lg sm:rounded-xl overflow-hidden shadow-lg">
-              <div className="w-full h-full flex items-center justify-center text-white/20 text-4xl">
-                🦪
-              </div>
+            <div className="aspect-[3/2] overflow-hidden shadow-lg relative">
+              <Image
+                src="/images/oysters.jpg"
+                alt="Fresh oysters"
+                fill
+                className="object-cover"
+              />
             </div>
-            <div className="aspect-square bg-gradient-to-br from-yellow-800 to-yellow-900 rounded-lg sm:rounded-xl overflow-hidden shadow-lg">
-              <div className="w-full h-full flex items-center justify-center text-white/20 text-4xl">
-                🍝
-              </div>
+            <div className="aspect-[3/2] overflow-hidden shadow-lg relative">
+              <Image
+                src="/images/italian.jpg"
+                alt="Italian cuisine"
+                fill
+                className="object-cover"
+              />
             </div>
           </div>
 

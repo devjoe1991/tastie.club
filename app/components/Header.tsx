@@ -19,13 +19,18 @@ export default function Header() {
             </Link>
           </div>
 
-          {/* Tagline in the middle */}
+          {/* Tagline in the middle - hidden on mobile */}
           <div className="hidden md:flex items-center">
-            <p className="text-lg font-medium bg-gradient-to-r from-gray-700 to-gray-900 bg-clip-text text-transparent">taste the unforgettable</p>
+            <p className="text-lg font-medium bg-gradient-to-r from-red-800 via-orange-700 via-yellow-700 via-green-800 via-blue-800 to-purple-800 bg-clip-text text-transparent">taste the unforgettable</p>
           </div>
 
-          {/* Question mark button on the right */}
-          <div className="flex items-center">
+          {/* Mobile tagline - shown on mobile instead of question mark */}
+          <div className="flex md:hidden items-center">
+            <p className="text-sm font-medium bg-gradient-to-r from-red-800 via-orange-700 via-yellow-700 via-green-800 via-blue-800 to-purple-800 bg-clip-text text-transparent">taste the unforgettable</p>
+          </div>
+
+          {/* Question mark button on the right - hidden on mobile */}
+          <div className="hidden md:flex items-center">
             <button className="w-10 h-10 bg-white hover:bg-gray-100 rounded-full flex items-center justify-center transition-colors duration-200 shadow-sm">
               <span className="text-gray-600 font-semibold text-lg">?</span>
             </button>

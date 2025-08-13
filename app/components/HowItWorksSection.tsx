@@ -9,8 +9,8 @@ export default function HowItWorksSection() {
             How It Works
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Creating a symbiotic relationship where restaurants maximize occupancy during slow periods 
-            while food enthusiasts discover exceptional dining experiences at a fraction of the cost.
+            A brilliant win-win where restaurants fill their quiet tables during off-peak hours 
+            whilst proper foodies discover cracking dining experiences without breaking the bank.
           </p>
         </div>
 
