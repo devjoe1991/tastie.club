@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function GallerySection() {
   return (
-    <div className="bg-[#F2F2F2] flex items-center justify-center p-4 sm:p-6 lg:p-8 pt-8 sm:pt-12 lg:pt-16">
+    <div className="bg-[#F2F2F2] flex items-center justify-center p-4 sm:p-6 lg:p-8 pt-8 sm:pt-12 lg:pt-16 pb-12 sm:pb-16 lg:pb-20">
       {/* Main Container with rounded corners */}
       <div className="relative w-full max-w-6xl">
         {/* Content Container with rounded corners */}

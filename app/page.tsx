@@ -6,7 +6,7 @@ import GallerySection from './components/GallerySection';
 
 export default function Home() {
   return (
-    <main>
+    <main className="min-h-screen overscroll-none">
       <Header />
       <HeroSection />
       <HowItWorksSection />
