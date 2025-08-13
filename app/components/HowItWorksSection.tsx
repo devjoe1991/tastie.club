@@ -51,6 +51,11 @@ export default function HowItWorksSection() {
               </div>
             </div>
 
+            {/* Mobile Separator */}
+            <div className="md:hidden flex justify-center">
+              <div className="w-40 h-px bg-gray-300"></div>
+            </div>
+
             {/* For Restaurants Section */}
             <div className="text-center">
               <h3 className="text-2xl font-semibold text-[#474747] mb-6">
