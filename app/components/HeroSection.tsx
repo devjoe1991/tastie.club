@@ -14,15 +14,15 @@ export default function HeroSection() {
   }, []);
 
   return (
-    <div className="bg-[#F2F2F2] flex items-center justify-center p-8 pt-16">
+    <div className="bg-[#F2F2F2] flex items-center justify-center p-4 sm:p-6 lg:p-8 pt-8 sm:pt-12 lg:pt-16">
       {/* Main Container with rounded corners */}
       <div className="relative w-full max-w-6xl">
         {/* Video Container with rounded corners */}
-        <div className="relative bg-gray-100 rounded-2xl overflow-hidden shadow-2xl">
+        <div className="relative bg-gray-100 rounded-xl sm:rounded-2xl overflow-hidden shadow-2xl">
           {/* Video Background */}
           <video
             ref={videoRef}
-            className="w-full h-[600px] object-cover"
+            className="w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] object-cover"
             autoPlay
             loop
             muted
